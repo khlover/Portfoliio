@@ -53,9 +53,6 @@ var projects = [{
 }
 ]
 
-
-
-
 function sortbytype(e){
     e = e || window.event;
     e = e.target || e.srcElement;
@@ -65,8 +62,6 @@ function sortbytype(e){
     vskill.style.opacity = 0.5
     chosen = document.getElementById(e.id).style.opacity = 1;
   
-    
-
     while (Projectgap.hasChildNodes()){
         Projectgap.removeChild(Projectgap.firstChild);
     }
@@ -100,9 +95,5 @@ function sortbytype(e){
            newdiv.innerHTML = div += temp
            Projectgap.appendChild(newdiv)
         }
-        
-        
     })
-
-
 }
