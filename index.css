@@ -145,7 +145,8 @@ button{
 }
 
 .icon{
-    margin-top: 100px;
+    position: relative;
+    top:100px;
     margin-right: 50px;
 }
 
