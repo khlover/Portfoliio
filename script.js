@@ -1,4 +1,4 @@
-let Projectgap = document.getElementById("Projects")
+let Projectgap = document.getElementById("projects")
 let jskill = document.getElementById("js")
 let rskill = document.getElementById("react")
 let vskill = document.getElementById("vue")
@@ -77,9 +77,9 @@ function sortbytype(e){
                 <div class = "project">
                 <h2 class="pname">${project.name}</h2>
                 <img id="icon" height="290px" width="450px" src=${project.img}>
-                <span>
-                    <a href=${project.live} target="blank"> <button>Live</button></a>
-                    <a href=${project.code} target="blank"> <button>Code</button></a>
+                <span id="links">
+                <a class="link" href=${project.live} target="blank"><button>Live</button></a>
+                <a class="link" href=${project.code} target="blank"><button>Code</button></a>
                 </span> 
                 ${project.desc}
                 </div>

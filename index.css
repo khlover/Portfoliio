@@ -9,7 +9,6 @@ body{
 
 .sectionsA{
     background-color: #2AB7CA;
-    padding-bottom: 200px;
     text-align: center;
     opacity: 0.7;
 }
@@ -28,29 +27,25 @@ body{
     max-width:150px;
     border: black solid 5px;
     border-radius: 50%;
-
 }
 
 #medesc{
-    position: absolute;
+    position: relative;
     font-family: 'Spartan';
     font-size: 40px;
     font-style: oblique;
     font-weight: 100px;
     padding-left: 20px;
-    top:620px;
     text-align: center;
     opacity: 0.6;
 }
 
 #skillfilter{
-    position: absolute;
-    left: 50%;
-    margin-left: -350px;
+    text-align:center;
 }
 
 #skillfilter img{
-    opacity: 0.5;
+opacity: 0.5;
 }
 
 #skillfilter :hover{
@@ -58,18 +53,26 @@ body{
     opacity: 1;
 }
 
+#projects{
+display:flex;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: space-evenly;
+text-align: center;
+margin-top: 0px;
+padding:0px;
+}
+
 .project{
+ display:grid;
  position: relative;
- left:50%;
- margin-left: -400px;
- top:250px;
- margin-top: 50px;
+ top:50px;
  width: 800px;
- height:358px;
+ height:355px;
   
 -webkit-box-shadow: 13px 6px 33px 4px rgba(0,0,0,0.88);
 -moz-box-shadow: 13px 6px 33px 4px rgba(0,0,0,0.88);
-box-shadow: 13px 6px 33px 4px rgba(0,0,0,0.88);
+box-shadow: 13px 6px 33px 4px rgba(196, 175, 175, 0.88);
 
 border: solid 3px #FED766
 }
@@ -107,7 +110,7 @@ border: solid 3px #FED766
 
 .tag{
     position: relative;;
-    bottom:120px;
+    bottom:310px;
     margin-right: 20px;
     border:black solid 1px;
     border-radius: 25%;
@@ -122,21 +125,27 @@ width: 100%;
 max-width: 4032px;
 height:auto;
 max-height: 500px;
+min-height: 450px;
 border: black 5px solid;
 }
 
 button{
     position: relative;
-    bottom:100px;
-    right:30px;
+    bottom:105px;
+    right:-175px;
     background-color: #FED766;
-    transform: scale(3);
+    transform: scale(2.6);
     font-weight: bolder;
     margin-left: 100px;
+    z-index: 3;
 }
 
-button :hover{
-    transform: scale(4);
+#contact{
+    text-align: center;
+}
+
+.icon{
+    margin-right: 50px;
 }
 
 h1{
