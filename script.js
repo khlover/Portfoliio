@@ -50,7 +50,7 @@ var projects = [
     tools: ["JS", "CSS", "HTML"],
   },
   {
-    name: "Learn Japanese with Twitter",
+    name: "JTLT",
     img: "jtltThumb.PNG",
     desc: `<div class="pdesc">
     <ul>
@@ -62,7 +62,7 @@ var projects = [
     </div>`,
     live: "https://khlover.github.io/jtlt/",
     code: "https://github.com/khlover/jtlt/tree/master/jtlt",
-    tools: ["JS", "CSS, REACT, HTML"],
+    tools: ["JS", "CSS", "REACT", "HTML"],
   },
 ];
 
