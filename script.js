@@ -34,21 +34,7 @@ var projects = [
     code: "https://github.com/khlover/GameCollection",
     tools: ["JS", "CSS", "HTML", "Firebase"],
   },
-  {
-    name: "Mail Search",
-    img: "mailThumb.PNG",
-    desc: `<div class="pdesc">
-    <ul>
-    <li>UI mockup of modern email client</li> </br>
-    <li>Select date range</li> </br>
-    <li>Open multiple emails at once</li> </br>
-    <li>Alternative design for mobile</li>
-    </ul>
-    </div>`,
-    live: "https://khlover.github.io/MailArchiver",
-    code: "https://github.com/khlover/MailArchiver",
-    tools: ["JS", "CSS", "HTML"],
-  },
+
   {
     name: "JTLT",
     img: "jtltThumb.PNG",
